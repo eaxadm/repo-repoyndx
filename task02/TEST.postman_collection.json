@@ -1,0 +1,52 @@
+{
+	"info": {
+		"_postman_id": "b82e48fc-46e1-4fe4-8b30-fdde34960302",
+		"name": "TEST",
+		"description": "https://dadata.ru/api/suggest/address/",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "16261144"
+	},
+	"item": [
+		{
+			"name": "Метод lookup (XML-интерфейс)",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://dictionary.yandex.net/api/v1/dicservice/lookup?key=dict.1.1.20230317T120229Z.8a1ed82df841766e.1bba9eac669e7e42d6eaccfcae39af792d977a97&lang=en-ru&text=sky&ui=ru",
+					"protocol": "https",
+					"host": [
+						"dictionary",
+						"yandex",
+						"net"
+					],
+					"path": [
+						"api",
+						"v1",
+						"dicservice",
+						"lookup"
+					],
+					"query": [
+						{
+							"key": "key",
+							"value": "dict.1.1.20230317T120229Z.8a1ed82df841766e.1bba9eac669e7e42d6eaccfcae39af792d977a97"
+						},
+						{
+							"key": "lang",
+							"value": "en-ru"
+						},
+						{
+							"key": "text",
+							"value": "sky"
+						},
+						{
+							"key": "ui",
+							"value": "ru"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

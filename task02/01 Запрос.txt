@@ -1,0 +1,2 @@
+curl --location --request GET 'https://dictionary.yandex.net/api/v1/dicservice/lookup?key=dict.1.1.20230317T120229Z.8a1ed82df841766e.1bba9eac669e7e42d6eaccfcae39af792d977a97&lang=en-ru&text=sky&ui=ru' \
+--header 'Cookie: _yasc=x7QJlc5yMSWCZg1IZJImOh+sco5vabkQl82gM19+rFnDw8lSYaMfAfpW9hg='
